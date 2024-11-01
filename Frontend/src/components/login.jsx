@@ -4,7 +4,7 @@ function Login() {
   return (
     <>
     <div className='flex'>
-      <div className=''>
+      <div>
         <img className='h-[100vh] w-[60vw]' src="./../../Billie.jpg" alt="Billie Eilish" />
       </div>
 
@@ -36,6 +36,23 @@ function Login() {
           </div>
 
         </div>
+
+
+        {/* multiple choice buttons */}
+        <div className='flex justify-between items-center pt-3 mx-32'>
+          <div>
+              <input type="radio" name="usertype" id="" value="buyer" />
+              <label className='px-2 text-lg italic font-bold' htmlFor="">Buyer</label>  
+          </div>
+          <div>
+              <input type="radio" name="usertype" id="" value="seller" />
+              <label className='px-2 text-lg italic font-bold' htmlFor="">Seller</label>  
+          </div>
+        </div>
+
+
+
+
 
 
         {/* forgot passowrd */}
