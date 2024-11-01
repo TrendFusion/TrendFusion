@@ -8,7 +8,7 @@ function Login() {
         <img className='h-[100vh] w-[60vw]' src="./../../Billie.jpg" alt="Billie Eilish" />
       </div>
 
-      <div className='w-[40vw] mt-32'>
+      <div className='w-[40vw] mt-[25vh]'>
         <h1 className='text-black font-bold text-5xl text-center'>Sign In</h1>
 
         <div className='mt-10 mx-20'>
@@ -17,7 +17,7 @@ function Login() {
                 Email
               </label>
                 <div className="relative rounded-lg border border-black">
-                  <input required="" type="text" className="w-full rounded-lg bg-base-200 border-gray-300 p-4 pe-12 text-sm shadow-sm bg-gray-200" placeholder="Enter email/ phone number" name="username" value=""/><span className="absolute inset-y-0 end-0 grid place-content-center px-4"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg></span>
+                  <input required="" type="text" className="w-full rounded-lg bg-base-200 border-gray-300 p-4 pe-12 text-sm shadow-sm bg-gray-200" placeholder="Enter email/ phone number" name="username"/><span className="absolute inset-y-0 end-0 grid place-content-center px-4"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg></span>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ function Login() {
           <div>
               <label for="email" className="sr-only">Email</label>
                 <div className="relative rounded-lg border border-black">
-                    <input required="" type="text" className="w-full rounded-lg bg-base-200 border-gray-300 p-4 pe-12 text-sm shadow-sm bg-gray-200" placeholder="Enter passowrd" name="username" value=""/>
+                    <input required="" type="text" className="w-full rounded-lg bg-base-200 border-gray-300 p-4 pe-12 text-sm shadow-sm bg-gray-200" placeholder="Enter passowrd" name="username"/>
                       <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                           <svg xmlns="http://www.w3.org/2000/svg" className="size-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           </svg>
