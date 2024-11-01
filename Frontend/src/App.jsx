@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-
+import React from "react"
+import './index.css';
+import Login from "./components/Login.jsx";
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      {/* <h1 className="bg-green-600 text-black rounded-xl text-6xl text-center">Nitesh Yadav</h1> */}
+      <Login />
     </>
   )
 }
