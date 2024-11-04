@@ -8,7 +8,7 @@ function Login() {
         <img className='h-[100vh] w-[60vw]' src="./../../Billie.jpg" alt="Billie Eilish" />
       </div>
 
-      <div className='w-[40vw] mt-[25vh]'>
+      <div className='w-[40vw] mt-[15vh]'>
         <h1 className='text-black font-bold text-5xl text-center'>Sign In</h1>
 
         <div className='mt-10 mx-20'>
@@ -68,7 +68,7 @@ function Login() {
         </div>
 
 
-        <div class="w-full max-w-xs mx-auto p-4">
+        <div class="mx-20 ">
           <button class="bg-blue-500 text-white font-bold py-3 px-4 rounded-lg w-full hover:bg-slate-500 hover:text-white ">
             Sign In
           </button>
