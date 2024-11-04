@@ -5,6 +5,7 @@ function Login() {
     <>
     <div className='flex'>
       <div>
+        <label htmlFor="" className='absolute inset-0 flex items-end ml-[12vw] mb-8 text-white text-xl font-bold'>TrendFusion | Where Style Meets the Streets.</label>
         <img className='h-[100vh] w-[60vw]' src="./../../Billie.jpg" alt="Billie Eilish" />
       </div>
 
