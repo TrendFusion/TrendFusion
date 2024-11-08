@@ -16,7 +16,7 @@ const categorySchema = new Schema({
     default: null
   },
   image: {
-    type: String, // URL for category image (optional)
+    type: String, 
   },
   createdAt: {
     type: Date,
@@ -27,7 +27,6 @@ const categorySchema = new Schema({
     default: Date.now
   }
 });
-
 // Exporting the model
 const Category = mongoose.model('Category', categorySchema);
 

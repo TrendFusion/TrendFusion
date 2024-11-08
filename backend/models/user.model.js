@@ -1,9 +1,11 @@
  import mongoose from "mongoose";
-
+ const { Schema } = mongoose;
 // Address sub-schema
 const addressSchema = new Schema({
-  street: { type: String, required: true },
-  city: { type: String, required: true },
+  street: { type: String, required: true
+     },
+  city: { type: String,  required: true 
+  },
   state: { type: String, required: true },
   zipCode: { type: String, required: true },
   country: { type: String, required: true },
@@ -88,5 +90,5 @@ const userSchema = new Schema({
 // };
 
 // Exporting the model
-const User = mongoose.model('User', userSchema);
-module.exports = User;
+ export const User = mongoose.model('User', userSchema);
+
